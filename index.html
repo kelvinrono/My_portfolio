@@ -8,23 +8,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio</title>
 </head>
-<body class='jumbotron'>
-    <div class="container bg-light">
-    <div>
+<body class='jumbotron container'>
+    
+    <div class='navigate'>
         <nav>
             <ul>
-                <li>about</li>
-                <li>contact</li>
-                <li>projects</li>
+                <li> <a href='index.html#projects'>projects</a></li>
+                <li> <a href='index.html#contact'> contacts</a> </li>
+                <li> <a href='index.html#about'> About</a> </li>
+
             </ul>
         </nav>
     </div>
 
-<section>
-    <div>
+<section class="name">
+    <div class="row">
+    
+    <div class="intro">
         <h1>Hi, I am Cheruiyot Kelvin</h1>
+        <p>
+        I am an highly motivated,self-disciplined, graduated Software Developer offering
+expertise in Web Development (Full- stack web developer).
+        </p>
+    </div>
+</div>
+</section>
+<hr>
+
+<section>
+    <div class="row">
+        <div id="about" class="col-md-6">
+            <h3 >About Me</h3>
+            <p>I am a computer science graduate from Karatina University with second class
+                honours, upper division. I have comprehensive skills in web development.
+                This include both back-end using python-Django and front-end development
+                using HTML,CSS and JavaScript</p>
+        </div>
+
+   
+   
+    </div>
+    <hr>
+</section>
+
+<section>
+<h3>Technologies</h3>
+    
+    <div id="skills ">
+        <div class="row">
+        <div class="col-md-4">
+        <div class="front ">
+            <h3>Front-end</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>Angular</li>
+         
+        </ul>
+        </div>
+        </div>
+        <div class="col-md-4">
+        <div class="back">
+            <h3>Back-end</h3>
+        <ul>
+            <li>Python
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
+                </ul>
+            </li>
+            <li>NodeJS</li>
+
+        </ul>
+        </div>
+        </div>
+<div class="col-md-4">
+        <div class="database ">
+            <h3>Databases</h3>
+            <ul>
+                <li>Microsoft Access</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+            </ul>
+
+        </div>
+    </div>
+    </div>
     </div>
 </section>
+<hr>
+<section>
+    <div class="projects" id="projects">
+        <section class="s1">
+            <div class="main-container">
+                <h3 style="text-align: center;">Some of my past projects</h3>
+    
+                <div class="post-wrapper">
+    
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/gallery.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">Gallery app</h6>
+                                <p class="post-intro">This is an application developed with django that allows individuals to post images and they have been filtered such that one can view based on categories</p>
+                                <a href="https://kelvingallery.herokuapp.com/">Live link</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/instagram.png">
+                            <div class="post-preview">
+                                <h6 class="post-title"> Instagram Clone</h6>
+                                <p class="post-intro"> Instagram clone has got most of the instagram functionalities. You can create a post, like or comment in a post. One can follow or unfollow a friend</p>
+                                <a href="https://kelvininstagram.herokuapp.com/">Live link</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/blogs.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">Blogging website</h6>
+                                <p class="post-intro">This app allows users to post blog and can also see other people blog. There are random quotes that are fetched from quotes api. Developed with Flask</p>
+                                <a href="https://kelvinblogs.herokuapp.com/">Live link</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        
+        <section class="s2">
+            <div class="main-container">
+                <a href=""></a>
+                <h3 style="text-align: center;">Contact Me</h3>
+    
+                <form id="contact-form">
+                    <a name="contact"></a>
+    
+                    <label>Name</label>
+                    <input class="input-field" type="text" name="name">
+    
+                    <label>Email</label>
+                    <input class="input-field" type="text" name="email">
+    
+                    <label>Message</label>
+                    <textarea class="input-field" name="message"></textarea>
+    
+                    <input id="submit-btn" type="submit" value="Send">
+                </form>
+            </div>
+        </section> 
 
 
 </div>
