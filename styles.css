@@ -73,6 +73,11 @@ html, body{
 
 body *{
 	transition: 0.3s;
+	
+}
+
+.overall{
+	border:2px solid lightcoral;
 }
 
 .front, .back, .database{
